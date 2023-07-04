@@ -1,7 +1,7 @@
 DB_HOST = "localhost"
-DB_NAME = "northwind"
+DB_NAME = "#####"
 DB_USER = "postgres"
-DB_PASS = "ebube"
+DB_PASS = "#####"
 
 import psycopg2
 import psycopg2.extras
