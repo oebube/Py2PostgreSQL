@@ -31,6 +31,8 @@ with conn:
         cur.execute("SELECT * FROM student;")
         print(cur.fetchall())
 
+        print("New-Features branch!!")
+
 #conn.commit()
 
 # cur.close()
