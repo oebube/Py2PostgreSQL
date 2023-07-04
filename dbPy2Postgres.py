@@ -28,7 +28,7 @@ with conn:
         # print(cur.fetchone()['name'])
         # cur.execute("INSERT INTO student (name) VALUES(%s)", ("Janet",))
 
-        cur.execute("SELECT * FROM student;!")
+        cur.execute("SELECT * FROM student;")
         print(cur.fetchall())
 
         print("New-Features branch!!")
